@@ -1,0 +1,12 @@
+name: HideChat
+version: '${project.version}'
+main: com.github.kumo0621.hidechat.HideChat
+api-version: 1.16
+commands:
+  hidechat:
+    aliases: hc
+    permission: hidechat
+
+permissions:
+  hidechat:
+    default: op
